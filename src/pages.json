@@ -1,0 +1,30 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uv-(.*)": "@climblee/uv-ui/components/uv-$1/uv-$1.vue"
+		}
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			},
+			"lazyCodeLoading": "requiredComponents"
+		},
+		{
+			"path": "pages/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			},
+			"lazyCodeLoading": "requiredComponents"
+		}
+	],
+	"subPackages": [],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
